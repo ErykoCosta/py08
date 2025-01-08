@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py08"
+version = "0.1.0"
+description = ""
+authors = ["Eryko <eryko4350@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandera = "^0.22.1"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
